@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server:{
     port:3000,
-    host: 'localhost',
+    host: '0.0.0.0',
+    allowedHosts: ['where-by-test-app.onrender.com','https://devwithkuldeep.cloud/']
   }
 })
